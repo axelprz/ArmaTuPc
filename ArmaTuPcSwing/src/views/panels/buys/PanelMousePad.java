@@ -1,5 +1,5 @@
 
-package views;
+package views.panels.buys;
 
 public class PanelMousePad extends javax.swing.JFrame {
 

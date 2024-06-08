@@ -1,5 +1,5 @@
 
-package views;
+package views.panels;
 
 
 public class PanelCreaTuPc extends javax.swing.JFrame {
@@ -106,6 +106,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnSsd.setForeground(new java.awt.Color(0, 0, 0));
         btnSsd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnSsd.setText("Disco Solido");
+        btnSsd.setBorderPainted(false);
         btnSsd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSsd.setFocusPainted(false);
         btnSsd.setFocusable(false);
@@ -118,6 +119,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnProcesador.setForeground(new java.awt.Color(0, 0, 0));
         btnProcesador.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnProcesador.setText("Procesador");
+        btnProcesador.setBorderPainted(false);
         btnProcesador.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnProcesador.setFocusPainted(false);
         btnProcesador.setFocusable(false);
@@ -130,6 +132,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnMother.setForeground(new java.awt.Color(0, 0, 0));
         btnMother.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnMother.setText("Mother");
+        btnMother.setBorderPainted(false);
         btnMother.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMother.setFocusPainted(false);
         btnMother.setFocusable(false);
@@ -142,6 +145,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnCooler.setForeground(new java.awt.Color(0, 0, 0));
         btnCooler.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnCooler.setText("Cooler");
+        btnCooler.setBorderPainted(false);
         btnCooler.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCooler.setFocusPainted(false);
         btnCooler.setFocusable(false);
@@ -154,6 +158,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnRam.setForeground(new java.awt.Color(0, 0, 0));
         btnRam.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnRam.setText("Memoria RAM");
+        btnRam.setBorderPainted(false);
         btnRam.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnRam.setFocusPainted(false);
         btnRam.setFocusable(false);
@@ -166,6 +171,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnGabinete.setForeground(new java.awt.Color(0, 0, 0));
         btnGabinete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnGabinete.setText("Gabinete");
+        btnGabinete.setBorderPainted(false);
         btnGabinete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnGabinete.setFocusPainted(false);
         btnGabinete.setFocusable(false);
@@ -178,6 +184,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnGpu.setForeground(new java.awt.Color(0, 0, 0));
         btnGpu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnGpu.setText("Placa de Video");
+        btnGpu.setBorderPainted(false);
         btnGpu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnGpu.setFocusPainted(false);
         btnGpu.setFocusable(false);
@@ -190,6 +197,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnMousePad.setForeground(new java.awt.Color(0, 0, 0));
         btnMousePad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnMousePad.setText("Mouse Pad");
+        btnMousePad.setBorderPainted(false);
         btnMousePad.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMousePad.setFocusPainted(false);
         btnMousePad.setFocusable(false);
@@ -202,6 +210,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnFuente.setForeground(new java.awt.Color(0, 0, 0));
         btnFuente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnFuente.setText("Fuente");
+        btnFuente.setBorderPainted(false);
         btnFuente.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnFuente.setFocusPainted(false);
         btnFuente.setFocusable(false);
@@ -214,6 +223,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnMonitor.setForeground(new java.awt.Color(0, 0, 0));
         btnMonitor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnMonitor.setText("Monitor");
+        btnMonitor.setBorderPainted(false);
         btnMonitor.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMonitor.setFocusPainted(false);
         btnMonitor.setFocusable(false);
@@ -226,6 +236,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnAuriculares.setForeground(new java.awt.Color(0, 0, 0));
         btnAuriculares.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnAuriculares.setText("Auriculares");
+        btnAuriculares.setBorderPainted(false);
         btnAuriculares.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnAuriculares.setFocusPainted(false);
         btnAuriculares.setFocusable(false);
@@ -238,6 +249,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnTeclado.setForeground(new java.awt.Color(0, 0, 0));
         btnTeclado.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnTeclado.setText("Teclado");
+        btnTeclado.setBorderPainted(false);
         btnTeclado.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnTeclado.setFocusPainted(false);
         btnTeclado.setFocusable(false);
@@ -250,6 +262,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnHdd.setForeground(new java.awt.Color(0, 0, 0));
         btnHdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnHdd.setText("Disco Rigido");
+        btnHdd.setBorderPainted(false);
         btnHdd.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnHdd.setFocusPainted(false);
         btnHdd.setFocusable(false);
@@ -268,6 +281,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnMouse.setForeground(new java.awt.Color(0, 0, 0));
         btnMouse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnMouse.setText("Mouse");
+        btnMouse.setBorderPainted(false);
         btnMouse.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMouse.setFocusPainted(false);
         btnMouse.setFocusable(false);
@@ -276,6 +290,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         jPanelCrea.add(btnMouse, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 650, 210, 60));
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnSalir.setBorderPainted(false);
         btnSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSalir.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         btnSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -495,6 +510,7 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         btnComprar.setForeground(new java.awt.Color(0, 0, 0));
         btnComprar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
         btnComprar.setText("Comprar");
+        btnComprar.setBorderPainted(false);
         btnComprar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnComprar.setFocusPainted(false);
         btnComprar.setFocusable(false);
@@ -503,71 +519,85 @@ public class PanelCreaTuPc extends javax.swing.JFrame {
         jPanelCompra.add(btnComprar, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 700, 210, 60));
 
         btnBorrar3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar3.setBorderPainted(false);
         btnBorrar3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 180, 30, 30));
 
         btnBorrar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar2.setBorderPainted(false);
         btnBorrar2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 145, 30, 30));
 
         btnBorrar5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar5.setBorderPainted(false);
         btnBorrar5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 265, 30, 30));
 
         btnBorrar4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar4.setBorderPainted(false);
         btnBorrar4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar4, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 230, 30, 30));
 
         btnBorrar6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar6.setBorderPainted(false);
         btnBorrar6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar6.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar6, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 300, 30, 30));
 
         btnBorrar8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar8.setBorderPainted(false);
         btnBorrar8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar8.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 385, 30, 30));
 
         btnBorrar7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar7.setBorderPainted(false);
         btnBorrar7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar7.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 350, 30, 30));
 
         btnBorrar9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar9.setBorderPainted(false);
         btnBorrar9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar9.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar9, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 420, 30, 30));
 
         btnBorrar11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar11.setBorderPainted(false);
         btnBorrar11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar11.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar11, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 505, 30, 30));
 
         btnBorrar10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar10.setBorderPainted(false);
         btnBorrar10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar10.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar10, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 470, 30, 30));
 
         btnBorrar12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar12.setBorderPainted(false);
         btnBorrar12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar12.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar12, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 540, 30, 30));
 
         btnBorrar14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar14.setBorderPainted(false);
         btnBorrar14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar14.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar14, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 635, 30, 30));
 
         btnBorrar13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar13.setBorderPainted(false);
         btnBorrar13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar13.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar13, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 600, 30, 30));
 
         btnBorrar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar.png"))); // NOI18N
+        btnBorrar1.setBorderPainted(false);
         btnBorrar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBorrar1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar-hover.png"))); // NOI18N
         jPanelCompra.add(btnBorrar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, 30, 30));

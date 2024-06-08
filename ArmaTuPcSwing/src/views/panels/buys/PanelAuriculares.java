@@ -1,9 +1,9 @@
 
-package views;
+package views.panels.buys;
 
-public class PanelMonitor extends javax.swing.JFrame {
+public class PanelAuriculares extends javax.swing.JFrame {
 
-    public PanelMonitor() {
+    public PanelAuriculares() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -34,7 +34,7 @@ public class PanelMonitor extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabelTitulo5 = new javax.swing.JLabel();
-        jLabelMonitor = new javax.swing.JLabel();
+        jLabelAuriculares = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -46,7 +46,7 @@ public class PanelMonitor extends javax.swing.JFrame {
         jLabelTitulo2.setFont(new java.awt.Font("Roboto Black", 1, 48)); // NOI18N
         jLabelTitulo2.setForeground(new java.awt.Color(0, 0, 0));
         jLabelTitulo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo2.setText("Monitores");
+        jLabelTitulo2.setText("Auriculares");
         jPanel2.add(jLabelTitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 860, 70));
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar2.png"))); // NOI18N
@@ -160,10 +160,10 @@ public class PanelMonitor extends javax.swing.JFrame {
         jLabelTitulo5.setText("Filtros");
         jPanel3.add(jLabelTitulo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 280, 70));
 
-        jLabelMonitor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/monitor.png"))); // NOI18N
-        jLabelMonitor.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(29, 19, 19)));
-        jLabelMonitor.setOpaque(true);
-        jPanel3.add(jLabelMonitor, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 100, 100));
+        jLabelAuriculares.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/auriculares.png"))); // NOI18N
+        jLabelAuriculares.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(29, 19, 19)));
+        jLabelAuriculares.setOpaque(true);
+        jPanel3.add(jLabelAuriculares, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 100, 100));
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 0, 280, 610));
 
@@ -191,13 +191,13 @@ public class PanelMonitor extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PanelMonitor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelAuriculares.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PanelMonitor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelAuriculares.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PanelMonitor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelAuriculares.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PanelMonitor.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelAuriculares.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -207,7 +207,7 @@ public class PanelMonitor extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new PanelMonitor().setVisible(true);
+                new PanelAuriculares().setVisible(true);
             }
         });
     }
@@ -228,7 +228,7 @@ public class PanelMonitor extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    public javax.swing.JLabel jLabelMonitor;
+    public javax.swing.JLabel jLabelAuriculares;
     private javax.swing.JLabel jLabelTitulo2;
     private javax.swing.JLabel jLabelTitulo3;
     private javax.swing.JLabel jLabelTitulo4;

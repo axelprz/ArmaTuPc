@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package views;
+package views.panels.login;
 
 /**
  *
  * @author axelp
  */
-public class PanelLogin extends javax.swing.JFrame {
+public class PanelLoginRegistrarse extends javax.swing.JFrame {
 
     /**
      * Creates new form PanelLogin
      */
-    public PanelLogin() {
+    public PanelLoginRegistrarse() {
         initComponents();
         setLocationRelativeTo(null);
     }
@@ -32,7 +32,6 @@ public class PanelLogin extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jPasswordField1 = new javax.swing.JPasswordField();
         btnAuriculares = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         btnAuriculares1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
@@ -50,7 +49,7 @@ public class PanelLogin extends javax.swing.JFrame {
         jLabelTitulo1.setFont(new java.awt.Font("Roboto Black", 1, 24)); // NOI18N
         jLabelTitulo1.setForeground(new java.awt.Color(255, 255, 255));
         jLabelTitulo1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo1.setText("Iniciar Sesión");
+        jLabelTitulo1.setText("Registrarse");
         jPanel2.add(jLabelTitulo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 380, 90));
 
         jTextField2.setBackground(new java.awt.Color(29, 19, 19));
@@ -72,7 +71,7 @@ public class PanelLogin extends javax.swing.JFrame {
         btnAuriculares.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
         btnAuriculares.setForeground(new java.awt.Color(0, 0, 0));
         btnAuriculares.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
-        btnAuriculares.setText("Registrarse");
+        btnAuriculares.setText("Iniciar Sesión");
         btnAuriculares.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnAuriculares.setFocusPainted(false);
         btnAuriculares.setFocusable(false);
@@ -80,21 +79,11 @@ public class PanelLogin extends javax.swing.JFrame {
         btnAuriculares.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1-hover.png"))); // NOI18N
         jPanel2.add(btnAuriculares, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 350, 210, 60));
 
-        jButton1.setBackground(new java.awt.Color(29, 19, 19));
-        jButton1.setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Olvidaste tu contraseña?");
-        jButton1.setBorder(null);
-        jButton1.setBorderPainted(false);
-        jButton1.setContentAreaFilled(false);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(277, 200, 150, 20));
-
         btnAuriculares1.setBackground(new java.awt.Color(163, 184, 8));
         btnAuriculares1.setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
         btnAuriculares1.setForeground(new java.awt.Color(0, 0, 0));
         btnAuriculares1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn1.png"))); // NOI18N
-        btnAuriculares1.setText("Entrar");
+        btnAuriculares1.setText("Registrarse");
         btnAuriculares1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnAuriculares1.setFocusPainted(false);
         btnAuriculares1.setFocusable(false);
@@ -157,20 +146,21 @@ public class PanelLogin extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PanelLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelLoginRegistrarse.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PanelLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelLoginRegistrarse.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PanelLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelLoginRegistrarse.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PanelLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelLoginRegistrarse.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new PanelLogin().setVisible(true);
+                new PanelLoginRegistrarse().setVisible(true);
             }
         });
     }
@@ -178,7 +168,6 @@ public class PanelLogin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnAuriculares;
     public javax.swing.JButton btnAuriculares1;
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;

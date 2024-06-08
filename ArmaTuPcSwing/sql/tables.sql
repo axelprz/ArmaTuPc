@@ -211,3 +211,10 @@ CREATE TABLE teclado(
     FOREIGN KEY(rgb) REFERENCES rgb(id),
     FOREIGN KEY(color) REFERENCES color(id)
 );
+
+CREATE TABLE users(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(150) NOT NULL,
+    pass VARCHAR(100) NOT NULL,
+    isadmin BOOLEAN NOT NULL
+);

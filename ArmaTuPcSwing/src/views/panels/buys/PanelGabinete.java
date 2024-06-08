@@ -1,9 +1,9 @@
 
-package views;
+package views.panels.buys;
 
-public class PanelGpu extends javax.swing.JFrame {
+public class PanelGabinete extends javax.swing.JFrame {
 
-    public PanelGpu() {
+    public PanelGabinete() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -34,19 +34,7 @@ public class PanelGpu extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabelTitulo5 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jLabelGpu = new javax.swing.JLabel();
+        jLabelGabinete = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -58,7 +46,7 @@ public class PanelGpu extends javax.swing.JFrame {
         jLabelTitulo2.setFont(new java.awt.Font("Roboto Black", 1, 48)); // NOI18N
         jLabelTitulo2.setForeground(new java.awt.Color(0, 0, 0));
         jLabelTitulo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo2.setText("Tarjeta Gráfica");
+        jLabelTitulo2.setText("Gabinetes");
         jPanel2.add(jLabelTitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 860, 70));
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar2.png"))); // NOI18N
@@ -154,16 +142,16 @@ public class PanelGpu extends javax.swing.JFrame {
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 100, 40));
+        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(145, 220, 100, 40));
 
         jButton2.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton2.setText("No RGB");
+        jButton2.setText("Precio Bajo");
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, 100, 40));
+        jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 100, 40));
 
         jLabelTitulo5.setBackground(new java.awt.Color(0, 0, 0));
         jLabelTitulo5.setFont(new java.awt.Font("Roboto Black", 1, 24)); // NOI18N
@@ -172,118 +160,10 @@ public class PanelGpu extends javax.swing.JFrame {
         jLabelTitulo5.setText("Filtros");
         jPanel3.add(jLabelTitulo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 280, 70));
 
-        jButton3.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton3.setText("Precio Bajo");
-        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 100, 40));
-
-        jButton4.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton4.setText("20GB");
-        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 520, 100, 40));
-
-        jButton5.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton5.setText("RGB");
-        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 100, 40));
-
-        jButton6.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton6.setText("GDDR5");
-        jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton6.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, 100, 40));
-
-        jButton7.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton7.setText("GDDR6");
-        jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton7.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 320, 100, 40));
-
-        jButton8.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(255, 255, 255));
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton8.setText("GDDR6X");
-        jButton8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton8.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 370, 100, 40));
-
-        jButton9.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton9.setText("2GB");
-        jButton9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton9.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 370, 100, 40));
-
-        jButton10.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton10.setText("4GB");
-        jButton10.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton10.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 420, 100, 40));
-
-        jButton11.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton11.setForeground(new java.awt.Color(255, 255, 255));
-        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton11.setText("6GB");
-        jButton11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton11.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton11.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 420, 100, 40));
-
-        jButton12.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton12.setForeground(new java.awt.Color(255, 255, 255));
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton12.setText("8GB");
-        jButton12.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton12.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton12.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 470, 100, 40));
-
-        jButton13.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton13.setForeground(new java.awt.Color(255, 255, 255));
-        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton13.setText("12GB");
-        jButton13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton13.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 470, 100, 40));
-
-        jButton14.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jButton14.setForeground(new java.awt.Color(255, 255, 255));
-        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton14.setText("16GB");
-        jButton14.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton14.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton14.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 520, 100, 40));
-
-        jLabelGpu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/gpu.png"))); // NOI18N
-        jLabelGpu.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(29, 19, 19)));
-        jLabelGpu.setOpaque(true);
-        jPanel3.add(jLabelGpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 100, 100));
+        jLabelGabinete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/gabinete.png"))); // NOI18N
+        jLabelGabinete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(29, 19, 19)));
+        jLabelGabinete.setOpaque(true);
+        jPanel3.add(jLabelGabinete, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 100, 100));
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 0, 280, 610));
 
@@ -311,13 +191,13 @@ public class PanelGpu extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PanelGpu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelGabinete.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PanelGpu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelGabinete.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PanelGpu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelGabinete.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PanelGpu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelGabinete.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -327,7 +207,7 @@ public class PanelGpu extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new PanelGpu().setVisible(true);
+                new PanelGabinete().setVisible(true);
             }
         });
     }
@@ -337,19 +217,7 @@ public class PanelGpu extends javax.swing.JFrame {
     public javax.swing.JButton btnMother1;
     public javax.swing.JButton btnSalir;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
@@ -360,7 +228,7 @@ public class PanelGpu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    public javax.swing.JLabel jLabelGpu;
+    public javax.swing.JLabel jLabelGabinete;
     private javax.swing.JLabel jLabelTitulo2;
     private javax.swing.JLabel jLabelTitulo3;
     private javax.swing.JLabel jLabelTitulo4;

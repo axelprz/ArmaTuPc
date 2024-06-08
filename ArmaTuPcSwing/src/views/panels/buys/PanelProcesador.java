@@ -1,9 +1,9 @@
 
-package views;
+package views.panels.buys;
 
-public class PanelHdd extends javax.swing.JFrame {
+public class PanelProcesador extends javax.swing.JFrame {
 
-    public PanelHdd() {
+    public PanelProcesador() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -34,7 +34,9 @@ public class PanelHdd extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabelTitulo5 = new javax.swing.JLabel();
-        jLabelHdd = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jLabelProcesador = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -46,7 +48,7 @@ public class PanelHdd extends javax.swing.JFrame {
         jLabelTitulo2.setFont(new java.awt.Font("Roboto Black", 1, 48)); // NOI18N
         jLabelTitulo2.setForeground(new java.awt.Color(0, 0, 0));
         jLabelTitulo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo2.setText("Disco Rigido");
+        jLabelTitulo2.setText("Procesadores");
         jPanel2.add(jLabelTitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 860, 70));
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar2.png"))); // NOI18N
@@ -138,20 +140,20 @@ public class PanelHdd extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton1.setText("Precio Alto");
+        jButton1.setText("Intel");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton1.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(145, 220, 100, 40));
+        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 100, 40));
 
         jButton2.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
-        jButton2.setText("Precio Bajo");
+        jButton2.setText("Precio Alto");
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
-        jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 100, 40));
+        jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, 100, 40));
 
         jLabelTitulo5.setBackground(new java.awt.Color(0, 0, 0));
         jLabelTitulo5.setFont(new java.awt.Font("Roboto Black", 1, 24)); // NOI18N
@@ -160,10 +162,28 @@ public class PanelHdd extends javax.swing.JFrame {
         jLabelTitulo5.setText("Filtros");
         jPanel3.add(jLabelTitulo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 280, 70));
 
-        jLabelHdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hdd.png"))); // NOI18N
-        jLabelHdd.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(29, 19, 19)));
-        jLabelHdd.setOpaque(true);
-        jPanel3.add(jLabelHdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 100, 100));
+        jButton3.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
+        jButton3.setText("AMD");
+        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
+        jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 100, 40));
+
+        jButton4.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2.png"))); // NOI18N
+        jButton4.setText("Precio Bajo");
+        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn2-hover.png"))); // NOI18N
+        jPanel3.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 100, 40));
+
+        jLabelProcesador.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/procesador.png"))); // NOI18N
+        jLabelProcesador.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(29, 19, 19)));
+        jLabelProcesador.setOpaque(true);
+        jPanel3.add(jLabelProcesador, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 100, 100));
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 0, 280, 610));
 
@@ -191,23 +211,20 @@ public class PanelHdd extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PanelHdd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelProcesador.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PanelHdd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelProcesador.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PanelHdd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelProcesador.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PanelHdd.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelProcesador.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new PanelHdd().setVisible(true);
+                new PanelProcesador().setVisible(true);
             }
         });
     }
@@ -218,6 +235,8 @@ public class PanelHdd extends javax.swing.JFrame {
     public javax.swing.JButton btnSalir;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
@@ -228,7 +247,7 @@ public class PanelHdd extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    public javax.swing.JLabel jLabelHdd;
+    public javax.swing.JLabel jLabelProcesador;
     private javax.swing.JLabel jLabelTitulo2;
     private javax.swing.JLabel jLabelTitulo3;
     private javax.swing.JLabel jLabelTitulo4;

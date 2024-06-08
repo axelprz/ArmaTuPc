@@ -1,9 +1,9 @@
 
-package views;
+package views.panels.buys;
 
-public class PanelFuente extends javax.swing.JFrame {
+public class PanelTeclado extends javax.swing.JFrame {
 
-    public PanelFuente() {
+    public PanelTeclado() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -34,7 +34,6 @@ public class PanelFuente extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabelTitulo5 = new javax.swing.JLabel();
-        jLabelFuente = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -46,7 +45,7 @@ public class PanelFuente extends javax.swing.JFrame {
         jLabelTitulo2.setFont(new java.awt.Font("Roboto Black", 1, 48)); // NOI18N
         jLabelTitulo2.setForeground(new java.awt.Color(0, 0, 0));
         jLabelTitulo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo2.setText("Fuentes");
+        jLabelTitulo2.setText("Teclados");
         jPanel2.add(jLabelTitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 860, 70));
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/btn-eliminar2.png"))); // NOI18N
@@ -160,11 +159,6 @@ public class PanelFuente extends javax.swing.JFrame {
         jLabelTitulo5.setText("Filtros");
         jPanel3.add(jLabelTitulo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 140, 280, 70));
 
-        jLabelFuente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fuente.png"))); // NOI18N
-        jLabelFuente.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(29, 19, 19)));
-        jLabelFuente.setOpaque(true);
-        jPanel3.add(jLabelFuente, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 100, 100));
-
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 0, 280, 610));
 
         pack();
@@ -191,13 +185,13 @@ public class PanelFuente extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PanelFuente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelTeclado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PanelFuente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelTeclado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PanelFuente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelTeclado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PanelFuente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(PanelTeclado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -207,7 +201,7 @@ public class PanelFuente extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new PanelFuente().setVisible(true);
+                new PanelTeclado().setVisible(true);
             }
         });
     }
@@ -228,7 +222,6 @@ public class PanelFuente extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    public javax.swing.JLabel jLabelFuente;
     private javax.swing.JLabel jLabelTitulo2;
     private javax.swing.JLabel jLabelTitulo3;
     private javax.swing.JLabel jLabelTitulo4;
