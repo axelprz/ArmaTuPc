@@ -6,10 +6,8 @@ public class User {
     private String email;
     private String password;
     private boolean admin;
-    private static int contUser;
 
     public User(){
-        this.id = User.contUser;
     }
     
     public User(String email, String password, boolean admin) {
@@ -44,6 +42,10 @@ public class User {
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
     
 }

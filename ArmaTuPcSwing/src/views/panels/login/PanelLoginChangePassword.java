@@ -1,11 +1,19 @@
 
 package views.panels.login;
 
+import controllers.login.LoginChangePasswordControllers;
+import models.login.User;
+import models.login.UserDao;
+
 public class PanelLoginChangePassword extends javax.swing.JFrame {
 
+    @SuppressWarnings("empty-statement")
     public PanelLoginChangePassword() {
         initComponents();
         setLocationRelativeTo(null);
+        User us = new User();;
+        UserDao usDao = new UserDao();
+        LoginChangePasswordControllers controller = new LoginChangePasswordControllers(us, usDao, this);
         this.txtPassword.setVisible(false);
         this.btnNewPassword.setVisible(false);
     }
@@ -55,7 +63,7 @@ public class PanelLoginChangePassword extends javax.swing.JFrame {
         txtPassword.setBackground(new java.awt.Color(29, 19, 19));
         txtPassword.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
         txtPassword.setForeground(new java.awt.Color(153, 153, 153));
-        txtPassword.setText("jPasswordField1");
+        txtPassword.setText("**********");
         txtPassword.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(163, 184, 8), 2, true));
         jPanel2.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, 360, 40));
 
@@ -132,7 +140,7 @@ public class PanelLoginChangePassword extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
-        this.dispose();
+
     }//GEN-LAST:event_btnSalirActionPerformed
 
     /**
