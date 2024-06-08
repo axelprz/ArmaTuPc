@@ -38,7 +38,8 @@ public class LoginControllers implements ActionListener, MouseListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == views.btnLogin) {
-            if (views.txtEmail.getText().equals("") || String.valueOf(views.txtPassword.getPassword()).equals("")) {
+            if (views.txtEmail.getText().equals("") || String.valueOf(views.txtPassword.getPassword()).equals("") ||
+                    views.txtEmail.getText().equals("Correo Electrónico") || String.valueOf(views.txtPassword.getPassword()).equals("**********")) {
                 JOptionPane.showMessageDialog(null, "Hay campos vacíos");
             } else {
                 String email = views.txtEmail.getText();

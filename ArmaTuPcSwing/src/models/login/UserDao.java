@@ -65,10 +65,9 @@ public class UserDao {
         try {
             con = cn.getConexion();
             ps = con.prepareStatement(sql);
-            ps.setInt(1, us.getId());
-            ps.setString(2, us.getEmail());
-            ps.setString(3, us.getPassword());
-            ps.setBoolean(4, us.isAdmin());
+            ps.setString(1, us.getEmail());
+            ps.setString(2, us.getPassword());
+            ps.setBoolean(3, us.isAdmin());
             ps.execute();
             return true;
         } catch (SQLException e) {
@@ -85,7 +84,6 @@ public class UserDao {
             ps.setString(1, us.getPassword());
             ps.setInt(2, us.getId());
             ps.execute();
-            System.out.println("Consulta hecha");
             return true;
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, e.toString());

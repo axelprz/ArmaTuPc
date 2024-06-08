@@ -6,6 +6,7 @@ import java.net.URISyntaxException;
 import javax.swing.JOptionPane;
 import views.panels.login.PanelLogin;
 import views.panels.login.PanelLoginChangePassword;
+import views.panels.login.PanelLoginRegistrarse;
 
 public class FunctionsLoginControllers {
 
@@ -50,6 +51,17 @@ public class FunctionsLoginControllers {
             views.txtPassword.setForeground(new Color(153, 153, 153));
         }
     }
+    
+    public void placeHolderEmail(PanelLoginRegistrarse views) {
+        if (views.txtEmail.getText().equals("Correo Electrónico")) {
+            views.txtEmail.setText("");
+            views.txtEmail.setForeground(new Color(255, 255, 255));
+        }
+        if (String.valueOf(views.txtPassword.getPassword()).equals("")) {
+            views.txtPassword.setText("**********");
+            views.txtPassword.setForeground(new Color(153, 153, 153));
+        }
+    }
 
     public void placeHolderPassword(PanelLogin views) {
         if (String.valueOf(views.txtPassword.getPassword()).equals("**********")) {
@@ -63,6 +75,17 @@ public class FunctionsLoginControllers {
     }
     
     public void placeHolderPassword(PanelLoginChangePassword views) {
+        if (String.valueOf(views.txtPassword.getPassword()).equals("**********")) {
+            views.txtPassword.setText("");
+            views.txtPassword.setForeground(new Color(255, 255, 255));
+        }
+        if (views.txtEmail.getText().equals("")) {
+            views.txtEmail.setText("Correo Electrónico");
+            views.txtEmail.setForeground(new Color(153, 153, 153));
+        }
+    }
+    
+    public void placeHolderPassword(PanelLoginRegistrarse views) {
         if (String.valueOf(views.txtPassword.getPassword()).equals("**********")) {
             views.txtPassword.setText("");
             views.txtPassword.setForeground(new Color(255, 255, 255));
